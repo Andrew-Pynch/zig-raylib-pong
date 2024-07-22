@@ -9,7 +9,7 @@ pub const SCREEN_HEIGHT = 400;
 pub const MOVEMENT_SPEED: f32 = 5.0;
 
 pub fn main() anyerror!void {
-    rl.initWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "tut pong");
+    rl.initWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "pong");
     defer rl.closeWindow();
 
     // init audio
